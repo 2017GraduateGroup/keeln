@@ -1,8 +1,8 @@
 package ${queryPackage};
 
 
-import com.tuqi.mybatisgenerate.query.BaseQuery;
-import com.tuqi.mybatisgenerate.query.BaseCriteria;
+import com.keeln.mybatisgenerate.query.BaseQuery;
+import com.keeln.mybatisgenerate.query.BaseCriteria;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 

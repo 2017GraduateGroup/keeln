@@ -1,6 +1,6 @@
 package ${managerImplPackage};
 
-import com.tuqi.mybatisgenerate.query.PageResult;
+import com.keeln.mybatisgenerate.query.PageResult;
 import ${doPackage}.${className}${doSuffix};
 import ${queryPackage}.${className}${queryPrefix};
 import ${mapperExtPackage}.${className}${extMapperSuffix};
