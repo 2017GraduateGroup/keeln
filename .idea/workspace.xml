@@ -2,354 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fe6dbc5-a2ad-4953-b822-bf33990e9a7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Mapper.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/materialize" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/domain/model/UserTabDO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/domain/query/UserTabQuery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/manager/UserTabManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/manager/impl/UserTabManagerImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mapper/UserTabMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mapper/ext/UserTabExtMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserTabMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/ext/UserTabExtMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/materialize" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/MyBatisConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/TuqiAllApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/controller/ReturnJsonDataController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/domain/model/UserTabDO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/domain/query/UserTabQuery$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/domain/query/UserTabQuery$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/domain/query/UserTabQuery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/manager/UserTabManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/manager/impl/UserTabManagerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mapper/UserTabMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mapper/ext/UserTabExtMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/ColumnInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/MyBatisGenConst.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/MyBatisGenCore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/query/BaseCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/query/BaseQuery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/query/Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/query/PageResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tuqi/mybatisgenerate/query/QueryPageParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tuqi/TuqiAllApplicationTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tuqi/mappertest/UserMapperTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_unknown.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_unknown.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DOC/db_kellen_20170514.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/keeln/controller/ReturnJsonDataController.class" afterPath="$PROJECT_DIR$/target/classes/com/keeln/controller/ReturnJsonDataController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/keeln/mybatisgenerate/MyBatisGenCore.class" afterPath="$PROJECT_DIR$/target/classes/com/keeln/mybatisgenerate/MyBatisGenCore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/keeln/mappertest/UserMapperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/keeln/mappertest/UserMapperTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db_tuqi.config" afterPath="$PROJECT_DIR$/src/main/resources/db_tuqi.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fiat_generate_tables.config" afterPath="$PROJECT_DIR$/src/main/resources/fiat_generate_tables.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/template/manager.txt" afterPath="$PROJECT_DIR$/src/main/resources/template/manager.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/template/managerImpl.txt" afterPath="$PROJECT_DIR$/src/main/resources/template/managerImpl.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/template/query.txt" afterPath="$PROJECT_DIR$/src/main/resources/template/query.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/db_tuqi.config" afterPath="$PROJECT_DIR$/target/classes/db_tuqi.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fiat_generate_tables.config" afterPath="$PROJECT_DIR$/target/classes/fiat_generate_tables.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/template/manager.txt" afterPath="$PROJECT_DIR$/target/classes/template/manager.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/template/managerImpl.txt" afterPath="$PROJECT_DIR$/target/classes/template/managerImpl.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/template/query.txt" afterPath="$PROJECT_DIR$/target/classes/template/query.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tuqi-all.iml" afterPath="$PROJECT_DIR$/tuqi-all.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/MyBatisConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/MyBatisConfiguration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/TuqiAllApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/controller/ReturnJsonDataController.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/ColumnInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/ColumnInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/MyBatisGenConst.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/MyBatisGenConst.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/MyBatisGenCore.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/MyBatisGenCore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/query/BaseCriteria.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/query/BaseCriteria.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/query/BaseQuery.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/query/BaseQuery.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/query/Criterion.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/query/Criterion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/query/PageResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/query/PageResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tuqi/mybatisgenerate/query/QueryPageParam.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/query/QueryPageParam.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/css/main.css" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/mapper/mapper" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/demo.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/js/main.js" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/manager/manager.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/.editorconfig" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/.gitattributes" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/.gitattributes" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/.npmignore" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/.npmignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/.travis.yml" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/.travis.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/.versions" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/.versions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/404.html" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/CHANGELOG.md" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/CNAME" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/CNAME" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/Gruntfile.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/Gruntfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/ISSUE_TEMPLATE.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/LICENSE" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/README.md" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/_SpecRunner.html" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/_SpecRunner.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/about.html" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/badges.html" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/badges.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/bin/materialize-src-v0.98.1.zip" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/bin/materialize-src-v0.98.1.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/bin/materialize.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/bin/materialize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/fullscreen-slider-demo.html" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/fullscreen-slider-demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/package.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/package.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.0.98.1@materialize-css/package.json" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/.npminstall.done" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/.npminstall.done" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/.travis.yml" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/.travis.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/LICENSE" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.0.98.1@materialize-css/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/README.md" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/css/materialize.css" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/css/materialize.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/css/materialize.min.css" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/css/materialize.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/css/userstyle.css" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/css/userstyle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Bold.eot" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Bold.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Bold.woff" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Bold.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Bold.woff2" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Bold.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Light.eot" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Light.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Light.woff" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Light.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Light.woff2" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Light.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Medium.eot" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Medium.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Medium.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Medium.woff" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Medium.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Medium.woff2" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Medium.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Regular.eot" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Regular.woff" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Regular.woff2" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Thin.eot" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Thin.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Thin.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Thin.woff" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Thin.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Thin.woff2" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/fonts/roboto/Roboto-Thin.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/js/materialize.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/js/materialize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.1.0.0@materialize/js/materialize.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.1.0.0@materialize/js/materialize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/.npminstall.done" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/.npminstall.done" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/LICENSE" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/README.md" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/README.md" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.common.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.common.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.common.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.common.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.esm.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.esm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.runtime.common.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.runtime.common.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.runtime.esm.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.runtime.esm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.runtime.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.runtime.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/dist/vue.runtime.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/dist/vue.runtime.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/package.json" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/codegen/events.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/codegen/events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/codegen/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/codegen/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/directives/bind.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/directives/bind.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/directives/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/directives/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/directives/model.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/directives/model.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/error-detector.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/error-detector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/helpers.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/helpers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/optimizer.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/optimizer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/parser/entity-decoder.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/parser/entity-decoder.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/parser/filter-parser.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/parser/filter-parser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/parser/html-parser.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/parser/html-parser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/parser/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/parser/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/compiler/parser/text-parser.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/compiler/parser/text-parser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/components/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/components/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/components/keep-alive.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/components/keep-alive.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/config.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/global-api/assets.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/global-api/assets.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/global-api/extend.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/global-api/extend.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/global-api/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/global-api/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/global-api/mixin.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/global-api/mixin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/global-api/use.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/global-api/use.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/events.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/init.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/inject.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/inject.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/lifecycle.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/lifecycle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/proxy.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/proxy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/render-helpers/bind-object-props.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/render-helpers/bind-object-props.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/render-helpers/check-keycodes.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/render-helpers/check-keycodes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/render-helpers/render-list.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/render-helpers/render-list.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/render-helpers/render-slot.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/render-helpers/render-slot.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/render-helpers/render-static.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/render-helpers/render-static.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/render-helpers/resolve-filter.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/render-helpers/resolve-filter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/render-helpers/resolve-slots.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/render-helpers/resolve-slots.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/render.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/render.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/instance/state.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/instance/state.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/observer/array.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/observer/array.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/observer/dep.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/observer/dep.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/observer/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/observer/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/observer/scheduler.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/observer/scheduler.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/observer/watcher.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/observer/watcher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/util/debug.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/util/debug.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/util/env.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/util/env.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/util/error.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/util/error.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/util/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/util/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/util/lang.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/util/lang.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/util/options.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/util/options.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/util/perf.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/util/perf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/util/props.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/util/props.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/create-component.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/create-component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/create-element.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/create-element.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/helpers/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/helpers/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/helpers/merge-hook.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/helpers/merge-hook.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/helpers/normalize-children.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/helpers/normalize-children.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/helpers/update-listeners.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/helpers/update-listeners.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/modules/directives.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/modules/directives.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/modules/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/modules/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/modules/ref.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/modules/ref.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/patch.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/patch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/core/vdom/vnode.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/core/vdom/vnode.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/entries/web-compiler.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/entries/web-compiler.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/entries/web-runtime-with-compiler.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/entries/web-runtime-with-compiler.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/entries/web-runtime.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/entries/web-runtime.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/entries/web-server-renderer.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/entries/web-server-renderer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/entries/weex-compiler.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/entries/weex-compiler.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/entries/weex-factory.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/entries/weex-factory.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/entries/weex-framework.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/entries/weex-framework.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/directives/html.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/directives/html.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/directives/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/directives/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/directives/model.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/directives/model.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/directives/text.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/directives/text.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/modules/class.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/modules/class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/modules/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/modules/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/modules/style.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/modules/style.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/compiler/util.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/compiler/util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/class-util.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/class-util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/components/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/components/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/components/transition-group.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/components/transition-group.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/components/transition.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/components/transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/directives/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/directives/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/directives/model.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/directives/model.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/directives/show.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/directives/show.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/attrs.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/attrs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/class.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/dom-props.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/dom-props.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/events.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/style.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/style.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/transition.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/modules/transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/node-ops.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/node-ops.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/patch.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/patch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/runtime/transition-util.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/transition-util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/server/directives/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/server/directives/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/server/directives/show.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/server/directives/show.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/server/modules/attrs.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/server/modules/attrs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/server/modules/class.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/server/modules/class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/server/modules/dom-props.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/server/modules/dom-props.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/server/modules/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/server/modules/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/server/modules/style.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/server/modules/style.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/server/util.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/server/util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/util/attrs.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/util/attrs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/util/class.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/util/class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/util/compat.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/util/compat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/util/element.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/util/element.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/util/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/util/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/web/util/style.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/util/style.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/compiler/directives/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/compiler/directives/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/compiler/directives/model.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/compiler/directives/model.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/compiler/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/compiler/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/append.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/append.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/class.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/props.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/props.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/style.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/compiler/modules/style.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/framework.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/framework.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/components/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/web/runtime/components/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/components/transition-group.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/components/transition-group.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/components/transition.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/components/transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/directives/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/directives/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/attrs.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/attrs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/class.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/events.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/style.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/style.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/transition.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/modules/transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/node-ops.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/node-ops.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/patch.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/patch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/runtime/text-node.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/runtime/text-node.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/platforms/weex/util/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/platforms/weex/util/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/server/create-bundle-renderer.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/server/create-bundle-renderer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/server/create-bundle-runner.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/server/create-bundle-runner.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/server/create-renderer.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/server/create-renderer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/server/render-context.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/server/render-context.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/server/render-stream.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/server/render-stream.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/server/render.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/server/render.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/server/source-map-support.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/server/source-map-support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/server/write.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/server/write.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/sfc/parser.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/sfc/parser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/src/shared/util.js" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/src/shared/util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/types/index.d.ts" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/types/index.d.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/types/options.d.ts" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/types/options.d.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/types/plugin.d.ts" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/types/plugin.d.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/types/vnode.d.ts" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/types/vnode.d.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.2.2.4@vue/types/vue.d.ts" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.2.2.4@vue/types/vue.d.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/node_modules/.npminstall.done" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/.npminstall.done" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/tuqi/TuqiAllApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/keeln/TuqiAllApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/tuqi/mappertest/UserMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java" />
     </list>
     <ignored path="tuqi-all.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -371,21 +34,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReturnJsonDataController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReturnJsonDataController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TuqiAllApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="40" column="167" lean-forward="false" selection-start-line="40" selection-start-column="167" selection-end-line="40" selection-end-column="167" />
+            <state relative-caret-position="252">
+              <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -393,11 +66,71 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fiat_generate_tables.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fiat_generate_tables.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiDataMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/mapper/ApiDataMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBatisConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/MyBatisConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="136" column="21" lean-forward="false" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+            <state relative-caret-position="126">
+              <caret line="159" column="48" lean-forward="false" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -409,6 +142,7 @@
     <findStrings>
       <find>fastjson</find>
       <find>gson</find>
+      <find>spring.datasource.driverClassName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -430,13 +164,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tuqi/MyBatisConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tuqi/TuqiAllApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/keeln/MyBatisConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fiat_generate_tables.config" />
         <option value="$PROJECT_DIR$/src/main/resources/db_tuqi.config" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java" />
       </list>
     </option>
   </component>
@@ -459,8 +194,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -477,9 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -617,58 +349,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tuqi-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keeln" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tuqi-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keeln" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -888,10 +568,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/tuqi-all-boot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -899,6 +582,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\keeln\src\main\resources\DOC" />
       <recent name="D:\keeln\src\main\resources\templates" />
       <recent name="D:\keeln\src\main\resources" />
       <recent name="D:\keeln\src\main\resources\static" />
@@ -916,7 +600,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserMapperTest">
+  <component name="RunManager" selected="Spring Boot.TuqiAllApplication">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -981,6 +665,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="tuqi-all" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserMapperTest.initApiDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.keeln.mappertest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tuqi-all" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.keeln.mappertest" />
+      <option name="MAIN_CLASS_NAME" value="com.keeln.mappertest.UserMapperTest" />
+      <option name="METHOD_NAME" value="initApiDataTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1377,17 +1087,19 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.TuqiAllApplication" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.UserMapperTest.main" />
       <item index="3" class="java.lang.String" itemvalue="Application.UserMapperTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserMapperTest.initApiDataTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.UserMapperTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserMapperTest.main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserMapperTest.initApiDataTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UserMapperTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserMapperTest.main" />
       </list>
     </recent_temporary>
   </component>
@@ -1406,23 +1118,45 @@
       <workItem from="1494417312070" duration="2310000" />
       <workItem from="1494678151108" duration="3909000" />
       <workItem from="1494683295469" duration="427000" />
+      <workItem from="1494725412413" duration="5971000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="UserMapperTest_initApiDataTest - 2017.05.14 at 10h 27m 25s.xml">
+      <configuration name="UserMapperTest.initApiDataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_initApiDataTest - 2017.05.14 at 10h 32m 31s.xml">
+      <configuration name="UserMapperTest.initApiDataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_initApiDataTest - 2017.05.14 at 10h 35m 52s.xml">
+      <configuration name="UserMapperTest.initApiDataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_initApiDataTest - 2017.05.14 at 10h 39m 49s.xml">
+      <configuration name="UserMapperTest.initApiDataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_initApiDataTest - 2017.05.14 at 10h 44m 19s.xml">
+      <configuration name="UserMapperTest.initApiDataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_initApiDataTest - 2017.05.14 at 10h 44m 45s.xml">
+      <configuration name="UserMapperTest.initApiDataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_initApiDataTest - 2017.05.14 at 10h 48m 42s.xml">
+      <configuration name="UserMapperTest.initApiDataTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="UserMapperTest_main - 2017.05.13 at 20h 54m 08s.xml">
       <configuration name="UserMapperTest.main" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8060000" />
+    <option name="totallyTimeSpent" value="14031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4942717" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1431,18 +1165,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5351882" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26928896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1450,7 +1185,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1469,7 +1203,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1478,6 +1220,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="136" column="21" lean-forward="false" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="40" column="167" lean-forward="false" selection-start-line="40" selection-start-column="167" selection-end-line="40" selection-end-column="167" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1578,39 +1346,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/MyBatisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="108" column="67" lean-forward="true" selection-start-line="108" selection-start-column="67" selection-end-line="108" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db_tuqi.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fiat_generate_tables.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1622,45 +1361,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-878">
+          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fiat_generate_tables.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/MyBatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/mapper/ApiDataMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="136" column="21" lean-forward="false" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="159" column="48" lean-forward="false" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/manager/impl/ApiDataManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <element signature="e#1352#1353#0" expanded="false" />
+            <element signature="e#1415#1416#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/mybatisgenerate/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/ReturnJsonDataController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-878">
-          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/keeln/mappertest/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="40" column="167" lean-forward="false" selection-start-line="40" selection-start-column="167" selection-end-line="40" selection-end-column="167" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
