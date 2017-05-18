@@ -1,7 +1,7 @@
 package com.keeln.mappertest;
 
-import com.keeln.domain.model.ApiDataDO;
-import com.keeln.manager.ApiDataManager;
+import com.keeln.domain.model.ScenicRegionDO;
+import com.keeln.manager.ScenicRegionManager;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -52,24 +52,24 @@ public class UserMapperTest {
     }
 
     @Autowired
-    ApiDataManager apiDataManager;
+    ScenicRegionManager scenicRegionManager;
     @Test
     public void initApiDataTest() throws IOException, JSONException{
         JSONObject json = readJsonFromUrl("http://apis.haoservice.com/lifeservice/travel/scenery?key=4957925b82a8489c8d57a38dc205302c&pid=32&cid=&page=1&paybyvas=false");
         JSONArray jsonArray = json.getJSONArray("result");
-        ApiDataDO apiDataDO = new ApiDataDO();
+        ScenicRegionDO scenicRegionDO = new ScenicRegionDO();
         for (int i = 0; i < jsonArray.length(); i++){
             JSONObject jsonObject = (JSONObject) jsonArray.get(i);
-            apiDataDO.setTitle(jsonObject.getString("title"));
-            apiDataDO.setGrade(jsonObject.getString("grade"));
-            apiDataDO.setPriceMin(jsonObject.getString("price_min"));
-            apiDataDO.setCommCnt(jsonObject.getString("comm_cnt"));
-            apiDataDO.setCityid(jsonObject.getString("cityId"));
-            apiDataDO.setAddress(jsonObject.getString("address"));
-            apiDataDO.setSid(jsonObject.getString("sid"));
-            apiDataDO.setUrl(jsonObject.getString("url"));
-            apiDataDO.setImgurl(jsonObject.getString("imgurl"));
-            apiDataManager.insertSelective(apiDataDO);
+            scenicRegionDO.setTitle(jsonObject.getString("title"));
+            scenicRegionDO.setGrade(jsonObject.getString("grade"));
+            scenicRegionDO.setPriceMin(jsonObject.getString("price_min"));
+            scenicRegionDO.setCommCnt(jsonObject.getString("comm_cnt"));
+            scenicRegionDO.setCityid(jsonObject.getString("cityId"));
+            scenicRegionDO.setAddress(jsonObject.getString("address"));
+            scenicRegionDO.setSid(jsonObject.getString("sid"));
+            scenicRegionDO.setUrl(jsonObject.getString("url"));
+            scenicRegionDO.setImgurl(jsonObject.getString("imgurl"));
+            scenicRegionManager.insertSelective(scenicRegionDO);
         }
     }
 }
