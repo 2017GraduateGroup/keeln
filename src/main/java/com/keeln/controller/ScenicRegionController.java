@@ -5,10 +5,7 @@ import com.keeln.domain.query.ScenicRegionQuery;
 import com.keeln.manager.ScenicRegionManager;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -105,6 +102,7 @@ public class ScenicRegionController {
         }
     }
     //获取所有景区信息
+    @ResponseBody
     @RequestMapping(value = "getAllScenicRegion", method = RequestMethod.POST)
     public List getAllScenicRegion(){
         ScenicRegionQuery scenicRegionQuery = new ScenicRegionQuery();
