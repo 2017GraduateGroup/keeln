@@ -103,7 +103,11 @@ public class ScenicRegionController {
     }
     //获取所有景区信息
     @ResponseBody
+<<<<<<< HEAD
     @RequestMapping(value = "getAllScenicRegion")
+=======
+    @RequestMapping(value = "getAllScenicRegion", method = RequestMethod.POST)
+>>>>>>> c81475e88f59eaa4dc8b13281e565592f0a06bd0
     public List getAllScenicRegion(){
         ScenicRegionQuery scenicRegionQuery = new ScenicRegionQuery();
         scenicRegionQuery.createCriteria().andIdIsNotNull();
