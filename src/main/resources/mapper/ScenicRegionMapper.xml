@@ -9,12 +9,12 @@
         <result column="title" jdbcType="VARCHAR" property="title" />
         <result column="grade" jdbcType="VARCHAR" property="grade" />
         <result column="price_min" jdbcType="VARCHAR" property="priceMin" />
-        <result column="comm_cnt" jdbcType="VARCHAR" property="commCnt" />
-        <result column="cityid" jdbcType="VARCHAR" property="cityid" />
         <result column="address" jdbcType="VARCHAR" property="address" />
-        <result column="sid" jdbcType="VARCHAR" property="sid" />
         <result column="url" jdbcType="VARCHAR" property="url" />
+        <result column="area" jdbcType="INTEGER" property="area" />
+        <result column="hot_flag" jdbcType="INTEGER" property="hotFlag" />
         <result column="imgurl" jdbcType="VARCHAR" property="imgurl" />
+        <result column="detail" jdbcType="VARCHAR" property="detail" />
     </resultMap>
 
     <sql id="Query_Where_Clause">
@@ -78,7 +78,7 @@
     </sql>
 
     <sql id="Base_Column_List">
-        id,gmt_create,gmt_modified,title,grade,price_min,comm_cnt,cityid,address,sid,url,imgurl
+        id,gmt_create,gmt_modified,title,grade,price_min,address,url,area,hot_flag,imgurl,detail
     </sql>
 
     <select id="selectByQuery" parameterType="com.keeln.domain.query.ScenicRegionQuery" resultMap="BaseResultMap">
@@ -128,23 +128,23 @@
             <if test="priceMin != null">
                 price_min,
             </if>
-            <if test="commCnt != null">
-                comm_cnt,
-            </if>
-            <if test="cityid != null">
-                cityid,
-            </if>
             <if test="address != null">
                 address,
-            </if>
-            <if test="sid != null">
-                sid,
             </if>
             <if test="url != null">
                 url,
             </if>
+            <if test="area != null">
+                area,
+            </if>
+            <if test="hotFlag != null">
+                hot_flag,
+            </if>
             <if test="imgurl != null">
                 imgurl,
+            </if>
+            <if test="detail != null">
+                detail,
             </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
@@ -158,23 +158,23 @@
             <if test="priceMin != null">
                 #{priceMin,jdbcType=VARCHAR},
             </if>
-            <if test="commCnt != null">
-                #{commCnt,jdbcType=VARCHAR},
-            </if>
-            <if test="cityid != null">
-                #{cityid,jdbcType=VARCHAR},
-            </if>
             <if test="address != null">
                 #{address,jdbcType=VARCHAR},
-            </if>
-            <if test="sid != null">
-                #{sid,jdbcType=VARCHAR},
             </if>
             <if test="url != null">
                 #{url,jdbcType=VARCHAR},
             </if>
+            <if test="area != null">
+                #{area,jdbcType=INTEGER},
+            </if>
+            <if test="hotFlag != null">
+                #{hotFlag,jdbcType=INTEGER},
+            </if>
             <if test="imgurl != null">
                 #{imgurl,jdbcType=VARCHAR},
+            </if>
+            <if test="detail != null">
+                #{detail,jdbcType=VARCHAR},
             </if>
         </trim>
     </insert>
@@ -199,23 +199,23 @@
             <if test="record.priceMin != null">
                 price_min = #{record.priceMin,jdbcType=VARCHAR},
             </if>
-            <if test="record.commCnt != null">
-                comm_cnt = #{record.commCnt,jdbcType=VARCHAR},
-            </if>
-            <if test="record.cityid != null">
-                cityid = #{record.cityid,jdbcType=VARCHAR},
-            </if>
             <if test="record.address != null">
                 address = #{record.address,jdbcType=VARCHAR},
-            </if>
-            <if test="record.sid != null">
-                sid = #{record.sid,jdbcType=VARCHAR},
             </if>
             <if test="record.url != null">
                 url = #{record.url,jdbcType=VARCHAR},
             </if>
+            <if test="record.area != null">
+                area = #{record.area,jdbcType=INTEGER},
+            </if>
+            <if test="record.hotFlag != null">
+                hot_flag = #{record.hotFlag,jdbcType=INTEGER},
+            </if>
             <if test="record.imgurl != null">
                 imgurl = #{record.imgurl,jdbcType=VARCHAR},
+            </if>
+            <if test="record.detail != null">
+                detail = #{record.detail,jdbcType=VARCHAR},
             </if>
         </set>
         <if test="_parameter != null">
@@ -228,12 +228,12 @@
         title = #{record.title,jdbcType=VARCHAR},
         grade = #{record.grade,jdbcType=VARCHAR},
         price_min = #{record.priceMin,jdbcType=VARCHAR},
-        comm_cnt = #{record.commCnt,jdbcType=VARCHAR},
-        cityid = #{record.cityid,jdbcType=VARCHAR},
         address = #{record.address,jdbcType=VARCHAR},
-        sid = #{record.sid,jdbcType=VARCHAR},
         url = #{record.url,jdbcType=VARCHAR},
+        area = #{record.area,jdbcType=INTEGER},
+        hot_flag = #{record.hotFlag,jdbcType=INTEGER},
         imgurl = #{record.imgurl,jdbcType=VARCHAR},
+        detail = #{record.detail,jdbcType=VARCHAR},
         gmt_modified = now()
         <if test="_parameter != null">
             <include refid="Update_By_Query_Where_Clause" />
@@ -253,23 +253,23 @@
             <if test="priceMin != null">
                 price_min = #{priceMin,jdbcType=VARCHAR},
             </if>
-            <if test="commCnt != null">
-                comm_cnt = #{commCnt,jdbcType=VARCHAR},
-            </if>
-            <if test="cityid != null">
-                cityid = #{cityid,jdbcType=VARCHAR},
-            </if>
             <if test="address != null">
                 address = #{address,jdbcType=VARCHAR},
-            </if>
-            <if test="sid != null">
-                sid = #{sid,jdbcType=VARCHAR},
             </if>
             <if test="url != null">
                 url = #{url,jdbcType=VARCHAR},
             </if>
+            <if test="area != null">
+                area = #{area,jdbcType=INTEGER},
+            </if>
+            <if test="hotFlag != null">
+                hot_flag = #{hotFlag,jdbcType=INTEGER},
+            </if>
             <if test="imgurl != null">
                 imgurl = #{imgurl,jdbcType=VARCHAR},
+            </if>
+            <if test="detail != null">
+                detail = #{detail,jdbcType=VARCHAR},
             </if>
         </set>
         where id = #{id,jdbcType=BIGINT}

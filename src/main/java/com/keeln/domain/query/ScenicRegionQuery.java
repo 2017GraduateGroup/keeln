@@ -443,150 +443,6 @@ public class ScenicRegionQuery extends BaseQuery implements Serializable {
             return (Criteria) this;
         }
 
-        public Criteria andCommCntIsNull() {
-            addCriterion("comm_cnt is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntIsNotNull() {
-            addCriterion("comm_cnt is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntEqualTo(String value) {
-            addCriterion("comm_cnt =", value, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntNotEqualTo(String value) {
-            addCriterion("comm_cnt <>", value, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntGreaterThan(String value) {
-            addCriterion("comm_cnt >", value, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntGreaterThanOrEqualTo(String value) {
-            addCriterion("comm_cnt >=", value, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntLessThan(String value) {
-            addCriterion("comm_cnt <", value, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntLessThanOrEqualTo(String value) {
-            addCriterion("comm_cnt <=", value, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntLike(String value) {
-            String strValue = "%"+value.toString()+"%";
-            addCriterion("comm_cnt like", strValue, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntNotLike(String value) {
-            String strValue = "%"+value.toString()+"%";
-            addCriterion("comm_cnt not like", strValue, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntIn(List<String> values) {
-            addCriterion("comm_cnt in", values, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntNotIn(List<String> values) {
-            addCriterion("comm_cnt not in", values, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntBetween(String value1, String value2) {
-            addCriterion("comm_cnt between", value1, value2, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCommCntNotBetween(String value1, String value2) {
-            addCriterion("comm_cnt not between", value1, value2, "commCnt");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidIsNull() {
-            addCriterion("cityid is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidIsNotNull() {
-            addCriterion("cityid is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidEqualTo(String value) {
-            addCriterion("cityid =", value, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidNotEqualTo(String value) {
-            addCriterion("cityid <>", value, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidGreaterThan(String value) {
-            addCriterion("cityid >", value, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidGreaterThanOrEqualTo(String value) {
-            addCriterion("cityid >=", value, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidLessThan(String value) {
-            addCriterion("cityid <", value, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidLessThanOrEqualTo(String value) {
-            addCriterion("cityid <=", value, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidLike(String value) {
-            String strValue = "%"+value.toString()+"%";
-            addCriterion("cityid like", strValue, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidNotLike(String value) {
-            String strValue = "%"+value.toString()+"%";
-            addCriterion("cityid not like", strValue, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidIn(List<String> values) {
-            addCriterion("cityid in", values, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidNotIn(List<String> values) {
-            addCriterion("cityid not in", values, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidBetween(String value1, String value2) {
-            addCriterion("cityid between", value1, value2, "cityid");
-            return (Criteria) this;
-        }
-
-        public Criteria andCityidNotBetween(String value1, String value2) {
-            addCriterion("cityid not between", value1, value2, "cityid");
-            return (Criteria) this;
-        }
-
         public Criteria andAddressIsNull() {
             addCriterion("address is null");
             return (Criteria) this;
@@ -656,78 +512,6 @@ public class ScenicRegionQuery extends BaseQuery implements Serializable {
 
         public Criteria andAddressNotBetween(String value1, String value2) {
             addCriterion("address not between", value1, value2, "address");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidIsNull() {
-            addCriterion("sid is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidIsNotNull() {
-            addCriterion("sid is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidEqualTo(String value) {
-            addCriterion("sid =", value, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidNotEqualTo(String value) {
-            addCriterion("sid <>", value, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidGreaterThan(String value) {
-            addCriterion("sid >", value, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidGreaterThanOrEqualTo(String value) {
-            addCriterion("sid >=", value, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidLessThan(String value) {
-            addCriterion("sid <", value, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidLessThanOrEqualTo(String value) {
-            addCriterion("sid <=", value, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidLike(String value) {
-            String strValue = "%"+value.toString()+"%";
-            addCriterion("sid like", strValue, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidNotLike(String value) {
-            String strValue = "%"+value.toString()+"%";
-            addCriterion("sid not like", strValue, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidIn(List<String> values) {
-            addCriterion("sid in", values, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidNotIn(List<String> values) {
-            addCriterion("sid not in", values, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidBetween(String value1, String value2) {
-            addCriterion("sid between", value1, value2, "sid");
-            return (Criteria) this;
-        }
-
-        public Criteria andSidNotBetween(String value1, String value2) {
-            addCriterion("sid not between", value1, value2, "sid");
             return (Criteria) this;
         }
 
@@ -803,6 +587,150 @@ public class ScenicRegionQuery extends BaseQuery implements Serializable {
             return (Criteria) this;
         }
 
+        public Criteria andAreaIsNull() {
+            addCriterion("area is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaIsNotNull() {
+            addCriterion("area is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaEqualTo(Integer value) {
+            addCriterion("area =", value, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaNotEqualTo(Integer value) {
+            addCriterion("area <>", value, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaGreaterThan(Integer value) {
+            addCriterion("area >", value, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaGreaterThanOrEqualTo(Integer value) {
+            addCriterion("area >=", value, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaLessThan(Integer value) {
+            addCriterion("area <", value, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaLessThanOrEqualTo(Integer value) {
+            addCriterion("area <=", value, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaLike(Integer value) {
+            String strValue = "%"+value.toString()+"%";
+            addCriterion("area like", strValue, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaNotLike(Integer value) {
+            String strValue = "%"+value.toString()+"%";
+            addCriterion("area not like", strValue, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaIn(List<Integer> values) {
+            addCriterion("area in", values, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaNotIn(List<Integer> values) {
+            addCriterion("area not in", values, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaBetween(Integer value1, Integer value2) {
+            addCriterion("area between", value1, value2, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andAreaNotBetween(Integer value1, Integer value2) {
+            addCriterion("area not between", value1, value2, "area");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagIsNull() {
+            addCriterion("hot_flag is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagIsNotNull() {
+            addCriterion("hot_flag is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagEqualTo(Integer value) {
+            addCriterion("hot_flag =", value, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagNotEqualTo(Integer value) {
+            addCriterion("hot_flag <>", value, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagGreaterThan(Integer value) {
+            addCriterion("hot_flag >", value, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagGreaterThanOrEqualTo(Integer value) {
+            addCriterion("hot_flag >=", value, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagLessThan(Integer value) {
+            addCriterion("hot_flag <", value, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagLessThanOrEqualTo(Integer value) {
+            addCriterion("hot_flag <=", value, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagLike(Integer value) {
+            String strValue = "%"+value.toString()+"%";
+            addCriterion("hot_flag like", strValue, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagNotLike(Integer value) {
+            String strValue = "%"+value.toString()+"%";
+            addCriterion("hot_flag not like", strValue, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagIn(List<Integer> values) {
+            addCriterion("hot_flag in", values, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagNotIn(List<Integer> values) {
+            addCriterion("hot_flag not in", values, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagBetween(Integer value1, Integer value2) {
+            addCriterion("hot_flag between", value1, value2, "hotFlag");
+            return (Criteria) this;
+        }
+
+        public Criteria andHotFlagNotBetween(Integer value1, Integer value2) {
+            addCriterion("hot_flag not between", value1, value2, "hotFlag");
+            return (Criteria) this;
+        }
+
         public Criteria andImgurlIsNull() {
             addCriterion("imgurl is null");
             return (Criteria) this;
@@ -872,6 +800,78 @@ public class ScenicRegionQuery extends BaseQuery implements Serializable {
 
         public Criteria andImgurlNotBetween(String value1, String value2) {
             addCriterion("imgurl not between", value1, value2, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailIsNull() {
+            addCriterion("detail is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailIsNotNull() {
+            addCriterion("detail is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailEqualTo(String value) {
+            addCriterion("detail =", value, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailNotEqualTo(String value) {
+            addCriterion("detail <>", value, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailGreaterThan(String value) {
+            addCriterion("detail >", value, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailGreaterThanOrEqualTo(String value) {
+            addCriterion("detail >=", value, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailLessThan(String value) {
+            addCriterion("detail <", value, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailLessThanOrEqualTo(String value) {
+            addCriterion("detail <=", value, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailLike(String value) {
+            String strValue = "%"+value.toString()+"%";
+            addCriterion("detail like", strValue, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailNotLike(String value) {
+            String strValue = "%"+value.toString()+"%";
+            addCriterion("detail not like", strValue, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailIn(List<String> values) {
+            addCriterion("detail in", values, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailNotIn(List<String> values) {
+            addCriterion("detail not in", values, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailBetween(String value1, String value2) {
+            addCriterion("detail between", value1, value2, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andDetailNotBetween(String value1, String value2) {
+            addCriterion("detail not between", value1, value2, "detail");
             return (Criteria) this;
         }
 

@@ -63,10 +63,9 @@ public class UserMapperTest {
             scenicRegionDO.setTitle(jsonObject.getString("title"));
             scenicRegionDO.setGrade(jsonObject.getString("grade"));
             scenicRegionDO.setPriceMin(jsonObject.getString("price_min"));
-            scenicRegionDO.setCommCnt(jsonObject.getString("comm_cnt"));
-            scenicRegionDO.setCityid(jsonObject.getString("cityId"));
+            scenicRegionDO.setArea(jsonObject.getInt("area"));
             scenicRegionDO.setAddress(jsonObject.getString("address"));
-            scenicRegionDO.setSid(jsonObject.getString("sid"));
+            scenicRegionDO.setHotFlag(jsonObject.getInt("hot_flag"));
             scenicRegionDO.setUrl(jsonObject.getString("url"));
             scenicRegionDO.setImgurl(jsonObject.getString("imgurl"));
             scenicRegionManager.insertSelective(scenicRegionDO);

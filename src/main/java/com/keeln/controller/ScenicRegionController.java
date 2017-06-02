@@ -5,10 +5,7 @@ import com.keeln.domain.query.ScenicRegionQuery;
 import com.keeln.manager.ScenicRegionManager;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -24,8 +21,8 @@ public class ScenicRegionController {
 
     //添加景区信息
     @RequestMapping("addScenicRegionInfo")
-    public void addScenicRegionInfo(String title, String grade, String priceMin, String commCnt,
-                                    String cityId, String address, String sid, String url, String imgUlr){
+    public void addScenicRegionInfo(String title, String grade, String priceMin, String detail,
+                                    String area, String address, String hotFlag, String url, String imgUlr){
         ScenicRegionDO scenicRegionDO = new ScenicRegionDO();
         if(StringUtils.isNoneBlank(title)){
             scenicRegionDO.setTitle(title);
@@ -36,17 +33,14 @@ public class ScenicRegionController {
         if(StringUtils.isNoneBlank(priceMin)){
             scenicRegionDO.setPriceMin(priceMin);
         }
-        if(StringUtils.isNoneBlank(commCnt)){
-            scenicRegionDO.setCommCnt(commCnt);
-        }
-        if(StringUtils.isNoneBlank(cityId)){
-            scenicRegionDO.setCityid(cityId);
+        if(StringUtils.isNoneBlank(area)){
+            scenicRegionDO.setArea(Integer.valueOf(area));
         }
         if(StringUtils.isNoneBlank(address)){
             scenicRegionDO.setAddress(address);
         }
-        if(StringUtils.isNoneBlank(sid)){
-            scenicRegionDO.setSid(sid);
+        if(StringUtils.isNoneBlank(hotFlag)){
+            scenicRegionDO.setHotFlag(Integer.valueOf(hotFlag));
         }
         if(StringUtils.isNoneBlank(url)){
             scenicRegionDO.setUrl(url);
@@ -54,13 +48,16 @@ public class ScenicRegionController {
         if(StringUtils.isNoneBlank(imgUlr)){
             scenicRegionDO.setImgurl(imgUlr);
         }
+        if(StringUtils.isNoneBlank((detail))) {
+            scenicRegionDO.setDetail(detail);
+        }
         scenicRegionManager.insertSelective(scenicRegionDO);
     }
 
     //修改景区信息
     @RequestMapping("updateScenicRegionInfo")
-    public void updateScenicRegionInfo(@RequestParam String scenicRegionId, String title, String grade, String priceMin, String commCnt,
-                                    String cityId, String address, String sid, String url, String imgUlr){
+    public void updateScenicRegionInfo(@RequestParam String scenicRegionId, String title, String grade, String priceMin,
+                                    String area, String address, String hotFlag, String url, String imgUlr, String detail){
         if(StringUtils.isNotBlank(scenicRegionId)){
             ScenicRegionDO scenicRegionDO = scenicRegionManager.selectByPrimaryKey(Long.valueOf(scenicRegionId));
             if(StringUtils.isNoneBlank(title)){
@@ -72,23 +69,23 @@ public class ScenicRegionController {
             if(StringUtils.isNoneBlank(priceMin)){
                 scenicRegionDO.setPriceMin(priceMin);
             }
-            if(StringUtils.isNoneBlank(commCnt)){
-                scenicRegionDO.setCommCnt(commCnt);
-            }
-            if(StringUtils.isNoneBlank(cityId)){
-                scenicRegionDO.setCityid(cityId);
+            if(StringUtils.isNoneBlank(area)){
+                scenicRegionDO.setArea(Integer.valueOf(area));
             }
             if(StringUtils.isNoneBlank(address)){
                 scenicRegionDO.setAddress(address);
             }
-            if(StringUtils.isNoneBlank(sid)){
-                scenicRegionDO.setSid(sid);
+            if(StringUtils.isNoneBlank(hotFlag)){
+                scenicRegionDO.setHotFlag(Integer.valueOf(hotFlag));
             }
             if(StringUtils.isNoneBlank(url)){
                 scenicRegionDO.setUrl(url);
             }
             if(StringUtils.isNoneBlank(imgUlr)){
                 scenicRegionDO.setImgurl(imgUlr);
+            }
+            if(StringUtils.isNotBlank(detail)) {
+                scenicRegionDO.setDetail(detail);
             }
             scenicRegionManager.insertSelective(scenicRegionDO);
         }
@@ -105,11 +102,13 @@ public class ScenicRegionController {
         }
     }
     //获取所有景区信息
-    @RequestMapping(value = "getAllScenicRegion", method = RequestMethod.POST)
+    @ResponseBody
+    @RequestMapping(value = "getAllScenicRegion")
     public List getAllScenicRegion(){
         ScenicRegionQuery scenicRegionQuery = new ScenicRegionQuery();
         scenicRegionQuery.createCriteria().andIdIsNotNull();
         List<ScenicRegionDO> scenicRegionDOList = scenicRegionManager.selectByQuery(scenicRegionQuery);
         return scenicRegionDOList;
+//        return "/demo";
     }
 }
