@@ -28,10 +28,9 @@ public class UserBaseController {
 
     //用户注册
     @RequestMapping("userRegister")
-    public BizResult userRegister(@RequestParam String rUsename, @RequestParam String rPasswd, @RequestParam(required = false) String rNickname,
+    public void userRegister(@RequestParam String rUsename, @RequestParam String rPasswd, @RequestParam(required = false) String rNickname,
                                   @RequestParam(required = false) String gender){
         UserDO userDO = new UserDO();
-        BizResult bizResult = new BizResult();
         if(StringUtils.isNotBlank(rUsename)){
             userDO.setUserName(rUsename);
         }
@@ -46,28 +45,26 @@ public class UserBaseController {
         }
 
         userManager.insertSelective(userDO);
-        if(userManager.insertSelective(userDO) > 1){
-            bizResult.setCode(1);
-            bizResult.setMessage("login is success");
-        }else {
-            bizResult.setCode(2);
-            bizResult.setMessage("login is fail");
-        }
-        return bizResult;
     }
+
     //用户登录
     @RequestMapping("userLogin")
-    public void userLogin(@RequestParam String usernameInput, @RequestParam String passwdInput, HttpServletRequest request, Model model){
+    public BizResult userLogin(@RequestParam String usernameInput, @RequestParam String passwdInput, HttpServletRequest request){
+        BizResult bizResult = new BizResult();
         if(StringUtils.isNotBlank(usernameInput)){
             UserQuery userQuery = new UserQuery();
-            userQuery.createCriteria().andUserNameEqualTo(usernameInput);
+            userQuery.createCriteria().andUserNameEqualTo(usernameInput).andPasswordEqualTo(passwdInput);
             List<UserDO> userDOList = userManager.selectByQuery(userQuery);
-            model.addAttribute("currentUser", userDOList.get(0));
-            request.getSession().setAttribute("currentUserId", userDOList.get(0).getUserId());
-            if(StringUtils.isNotBlank(passwdInput)){
-                String mdPwd = MyMD5Util.code(passwdInput);
+            if(userDOList.get(0) != null){
+                bizResult.setCode(1);
+                bizResult.setMessage("login is success");
+                request.getSession().setAttribute("currentUserId", userDOList.get(0).getUserId());
+            }else{
+                bizResult.setCode(2);
+                bizResult.setMessage("login is fail");
             }
         }
+        return bizResult;
     }
 
     //获取所有的用户信息
