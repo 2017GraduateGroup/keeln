@@ -1,9 +1,11 @@
 package com.keeln.controller;
 
+import com.keeln.domain.model.BizResult;
 import com.keeln.domain.model.UserDO;
 import com.keeln.domain.query.UserQuery;
 import com.keeln.manager.UserManager;
 import com.keeln.util.MyMD5Util;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,15 +21,17 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("user")
+@Slf4j
 public class UserBaseController {
     @Autowired
     UserManager userManager;
 
     //用户注册
     @RequestMapping("userRegister")
-    public String userRegister(@RequestParam String rUsename, @RequestParam String rPasswd, @RequestParam(required = false) String rNickname,
-                               @RequestParam(required = false) String gender){
+    public BizResult userRegister(@RequestParam String rUsename, @RequestParam String rPasswd, @RequestParam(required = false) String rNickname,
+                                  @RequestParam(required = false) String gender){
         UserDO userDO = new UserDO();
+        BizResult bizResult = new BizResult();
         if(StringUtils.isNotBlank(rUsename)){
             userDO.setUserName(rUsename);
         }
@@ -42,7 +46,14 @@ public class UserBaseController {
         }
 
         userManager.insertSelective(userDO);
-        return "/loginAndRegister";
+        if(userManager.insertSelective(userDO) > 1){
+            bizResult.setCode(1);
+            bizResult.setMessage("login is success");
+        }else {
+            bizResult.setCode(2);
+            bizResult.setMessage("login is fail");
+        }
+        return bizResult;
     }
     //用户登录
     @RequestMapping("userLogin")
@@ -56,6 +67,40 @@ public class UserBaseController {
             if(StringUtils.isNotBlank(passwdInput)){
                 String mdPwd = MyMD5Util.code(passwdInput);
             }
+        }
+    }
+
+    //获取所有的用户信息
+    @RequestMapping("getAllUserInfo")
+    public List getAllUserInfo(){
+        UserQuery userQuery = new UserQuery();
+        userQuery.createCriteria().andUserIdIsNotNull();
+        List<UserDO> userDOList = userManager.selectByQuery(userQuery);
+        return userDOList;
+    }
+
+    //修改用户信息
+    @RequestMapping("updateUserInfo")
+    public void updateUserInfo(@RequestParam String userId,String userName, String nickName, String gender, String password){
+        if(StringUtils.isNotBlank(userId)){
+            UserDO userDO = userManager.selectByPrimaryKey(Long.valueOf(userId));
+            if(userDO != null){
+                if(StringUtils.isNotBlank(userName)){
+                    userDO.setUserName(userName);
+                }
+                if(StringUtils.isNotBlank(nickName)){
+                    userDO.setNickName(nickName);
+                }
+                if(StringUtils.isNotBlank(gender)){
+                   userDO.setUserGender(gender);
+                }
+                if(StringUtils.isNotBlank(password)){
+                    userDO.setPassword(password);
+                }
+                log.info("update user info success", userId);
+            }
+        }else {
+            log.info("user id is null", userId);
         }
     }
 }
