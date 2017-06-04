@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fe6dbc5-a2ad-4953-b822-bf33990e9a7b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/keeln/TuqiAllApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/keeln/TuqiAllApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/keeln/controller/UserBaseController.class" afterPath="$PROJECT_DIR$/target/classes/com/keeln/controller/UserBaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/keeln/domain/model/UserDO.class" afterPath="$PROJECT_DIR$/target/classes/com/keeln/domain/model/UserDO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/keeln/controller/ScenicRegionController.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/controller/ScenicRegionController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/keeln/controller/UserBaseController.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/controller/UserBaseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/keeln/domain/model/BizResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/domain/model/BizResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/keeln/domain/model/UserDO.java" afterPath="$PROJECT_DIR$/src/main/java/com/keeln/domain/model/UserDO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db_tuqi.config" afterPath="$PROJECT_DIR$/src/main/resources/db_tuqi.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fiat_generate_tables.config" afterPath="$PROJECT_DIR$/src/main/resources/fiat_generate_tables.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/db_tuqi.config" afterPath="$PROJECT_DIR$/target/classes/db_tuqi.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fiat_generate_tables.config" afterPath="$PROJECT_DIR$/target/classes/fiat_generate_tables.config" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ScenicRegionController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScenicRegionController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/ScenicRegionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="340">
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserBaseController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserBaseController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/UserBaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="462">
+              <caret line="122" column="65" lean-forward="true" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +78,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/db_tuqi.config" />
         <option value="$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/keeln/domain/model/BizResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/keeln/controller/UserBaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/keeln/controller/ScenicRegionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/keeln/controller/UserBaseController.java" />
       </list>
     </option>
   </component>
@@ -1142,12 +1128,12 @@
       <workItem from="1496470874499" duration="2763000" />
       <workItem from="1496474021856" duration="3731000" />
       <workItem from="1496508693719" duration="695000" />
-      <workItem from="1496586864786" duration="613000" />
+      <workItem from="1496586864786" duration="1061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9325000" />
+    <option name="totallyTimeSpent" value="9773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1465,14 +1451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/domain/model/BizResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1497,20 +1475,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/UserBaseController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/ScenicRegionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="340">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/ScenicRegionController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/TuqiAllApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="408">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/keeln/controller/UserBaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="122" column="65" lean-forward="true" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

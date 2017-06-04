@@ -120,7 +120,7 @@ public class UserBaseController {
                    userDO.setUserGender(gender);
                 }
                 if(StringUtils.isNotBlank(password)){
-                    userDO.setPassword(password);
+                    userDO.setPassword(MyMD5Util.code(password));
                 }
                 Integer result = userManager.updateByPrimaryKeySelective(userDO);
                 if(result > 0){
