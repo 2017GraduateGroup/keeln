@@ -102,13 +102,11 @@ public class ScenicRegionController {
         }
     }
     //获取所有景区信息
-    @ResponseBody
     @RequestMapping(value = "getAllScenicRegion")
     public List getAllScenicRegion(){
         ScenicRegionQuery scenicRegionQuery = new ScenicRegionQuery();
         scenicRegionQuery.createCriteria().andIdIsNotNull();
         List<ScenicRegionDO> scenicRegionDOList = scenicRegionManager.selectByQuery(scenicRegionQuery);
         return scenicRegionDOList;
-//        return "/demo";
     }
 }

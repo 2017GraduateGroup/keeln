@@ -44,4 +44,14 @@ public class UserDO implements Serializable {
      */
     private Integer userIdentifyId;
 
+    /**
+     * This field corresponds to the database column user.gmt_create
+     */
+    private Date gmtCreate;
+
+    /**
+     * This field corresponds to the database column user.gmt_modified
+     */
+    private Date gmtModified;
+
 }

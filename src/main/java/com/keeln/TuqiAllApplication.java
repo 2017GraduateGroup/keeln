@@ -18,7 +18,7 @@ public class TuqiAllApplication implements EmbeddedServletContainerCustomizer {
 
 	@Override
 	public void customize(ConfigurableEmbeddedServletContainer configurableEmbeddedServletContainer) {
-		configurableEmbeddedServletContainer.setPort(8088);
+		configurableEmbeddedServletContainer.setPort(8087);
 	}
 
 	private CorsConfiguration buildConfig() {
