@@ -9,7 +9,6 @@
         <result column="content" jdbcType="VARCHAR" property="content" />
         <result column="scenic_region_id" jdbcType="BIGINT" property="scenicRegionId" />
         <result column="user_id" jdbcType="BIGINT" property="userId" />
-        <result column="gmt_creat" jdbcType="TIMESTAMP" property="gmtCreat" />
     </resultMap>
 
     <sql id="Query_Where_Clause">
@@ -73,7 +72,7 @@
     </sql>
 
     <sql id="Base_Column_List">
-        evaluate_id,gmt_create,gmt_modified,content,scenic_region_id,user_id,gmt_creat
+        evaluate_id,gmt_create,gmt_modified,content,scenic_region_id,user_id
     </sql>
 
     <select id="selectByQuery" parameterType="com.keeln.domain.query.EvaluateQuery" resultMap="BaseResultMap">
@@ -123,9 +122,6 @@
             <if test="userId != null">
                 user_id,
             </if>
-            <if test="gmtCreat != null">
-                gmt_creat,
-            </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
             now(),now(),
@@ -137,9 +133,6 @@
             </if>
             <if test="userId != null">
                 #{userId,jdbcType=BIGINT},
-            </if>
-            <if test="gmtCreat != null">
-                #{gmtCreat,jdbcType=TIMESTAMP},
             </if>
         </trim>
     </insert>
@@ -164,9 +157,6 @@
             <if test="record.userId != null">
                 user_id = #{record.userId,jdbcType=BIGINT},
             </if>
-            <if test="record.gmtCreat != null">
-                gmt_creat = #{record.gmtCreat,jdbcType=TIMESTAMP},
-            </if>
         </set>
         <if test="_parameter != null">
             <include refid="Update_By_Query_Where_Clause" />
@@ -178,7 +168,6 @@
         content = #{record.content,jdbcType=VARCHAR},
         scenic_region_id = #{record.scenicRegionId,jdbcType=BIGINT},
         user_id = #{record.userId,jdbcType=BIGINT},
-        gmt_creat = #{record.gmtCreat,jdbcType=TIMESTAMP},
         gmt_modified = now()
         <if test="_parameter != null">
             <include refid="Update_By_Query_Where_Clause" />
@@ -197,9 +186,6 @@
             </if>
             <if test="userId != null">
                 user_id = #{userId,jdbcType=BIGINT},
-            </if>
-            <if test="gmtCreat != null">
-                gmt_creat = #{gmtCreat,jdbcType=TIMESTAMP},
             </if>
         </set>
         where evaluate_id = #{evaluateId,jdbcType=BIGINT}

@@ -1,19 +1,16 @@
 package com.keeln.domain.model;
 
-import java.io.Serializable;
-import java.util.Date;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Created by Xianrui Ke on 2017/6/5.
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class EvaluateDO implements Serializable {
-
-    private static final long serialVersionUID = 1L;
-
+public class EvaluateVO {
     /**
      * This field corresponds to the database column evaluate.evaluate_id
      */
@@ -33,15 +30,8 @@ public class EvaluateDO implements Serializable {
      * This field corresponds to the database column evaluate.user_id
      */
     private Long userId;
-
     /**
-     * This field corresponds to the database column evaluate.gmt_create
+     * user name
      */
-    private Date gmtCreate;
-
-    /**
-     * This field corresponds to the database column evaluate.gmt_modified
-     */
-    private Date gmtModified;
-
+    private String evaluateUserName;
 }
