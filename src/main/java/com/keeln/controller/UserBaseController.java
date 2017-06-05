@@ -137,4 +137,27 @@ public class UserBaseController {
         bizResult.setMessage("fail");
         return bizResult;
     }
+
+    /**
+     * 删除用户
+     * @param userId
+     * @return
+     */
+    @RequestMapping("deleteUser")
+    public BizResult deleteUser(@RequestParam String userId){
+        BizResult bizResult = new BizResult();
+        if(StringUtils.isNotBlank(userId)){
+            UserDO userDO = userManager.selectByPrimaryKey(Long.valueOf(userId));
+            if(null != userDO){
+                Integer result = userManager.deleteByPrimaryKey(userDO);
+                if(result > 0){
+                    bizResult.setCode("1");
+                    bizResult.setMessage("success");
+                }
+            }
+        }
+        bizResult.setCode("0");
+        bizResult.setMessage("fail");
+        return null;
+    }
 }
