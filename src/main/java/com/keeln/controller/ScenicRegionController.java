@@ -87,7 +87,7 @@ public class ScenicRegionController {
             if(StringUtils.isNotBlank(detail)) {
                 scenicRegionDO.setDetail(detail);
             }
-            scenicRegionManager.insertSelective(scenicRegionDO);
+            scenicRegionManager.updateByPrimaryKeySelective(scenicRegionDO);
         }
     }
 

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -79,11 +80,14 @@ public class UserBaseController {
             UserQuery userQuery = new UserQuery();
             userQuery.createCriteria().andUserNameEqualTo(usernameInput).andPasswordEqualTo(MyMD5Util.code(passwdInput));
             List<UserDO> userDOList = userManager.selectByQuery(userQuery);
+            List<Integer> userIdentify = new ArrayList<>();
             if(userDOList.size() > 0){
                 request.getSession().setAttribute("currentUserId", userDOList.get(0).getUserId());
                 bizResult.setCode("1");
                 bizResult.setData(userDOList.get(0).getUserId().toString());
                 bizResult.setMessage("login success");
+                userIdentify.add(userDOList.get(0).getUserIdentifyId());
+                bizResult.setList(userIdentify);
                 return bizResult;
             }else{
                 bizResult.setCode("0");
