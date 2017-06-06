@@ -2,6 +2,7 @@ package com.keeln.util;
 
 import org.springframework.boot.web.servlet.MultipartConfigFactory;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.MultipartConfigElement;
 

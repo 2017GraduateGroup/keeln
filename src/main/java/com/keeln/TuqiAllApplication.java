@@ -39,4 +39,5 @@ public class TuqiAllApplication implements EmbeddedServletContainerCustomizer {
 		source.registerCorsConfiguration("/**", buildConfig()); // 4
 		return new CorsFilter(source);
 	}
+
 }
