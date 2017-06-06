@@ -55,14 +55,14 @@ public class ScenicRegionDO implements Serializable {
     private Integer hotFlag;
 
     /**
-     * This field corresponds to the database column scenic_region.imgurl
-     */
-    private String imgurl;
-
-    /**
      * This field corresponds to the database column scenic_region.detail
      */
     private String detail;
+
+    /**
+     * This field corresponds to the database column scenic_region.imgurl
+     */
+    private String imgurl;
 
     /**
      * This field corresponds to the database column scenic_region.gmt_create

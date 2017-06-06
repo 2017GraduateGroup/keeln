@@ -53,7 +53,7 @@ public class UserBaseController {
                 if(StringUtils.isNotBlank(gender)){
                     userDO.setUserGender(gender);
                 }
-                userDO.setUserIdentifyId(0);
+                userDO.setUserIdentifyId(1);
                 Long result = userManager.insertSelective(userDO);
                 if(result > 0){
                     log.info("insert new user success", userDO.getUserName());

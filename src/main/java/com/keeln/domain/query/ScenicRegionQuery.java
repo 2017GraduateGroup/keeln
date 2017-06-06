@@ -731,78 +731,6 @@ public class ScenicRegionQuery extends BaseQuery implements Serializable {
             return (Criteria) this;
         }
 
-        public Criteria andImgurlIsNull() {
-            addCriterion("imgurl is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlIsNotNull() {
-            addCriterion("imgurl is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlEqualTo(String value) {
-            addCriterion("imgurl =", value, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlNotEqualTo(String value) {
-            addCriterion("imgurl <>", value, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlGreaterThan(String value) {
-            addCriterion("imgurl >", value, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlGreaterThanOrEqualTo(String value) {
-            addCriterion("imgurl >=", value, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlLessThan(String value) {
-            addCriterion("imgurl <", value, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlLessThanOrEqualTo(String value) {
-            addCriterion("imgurl <=", value, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlLike(String value) {
-            String strValue = "%"+value.toString()+"%";
-            addCriterion("imgurl like", strValue, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlNotLike(String value) {
-            String strValue = "%"+value.toString()+"%";
-            addCriterion("imgurl not like", strValue, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlIn(List<String> values) {
-            addCriterion("imgurl in", values, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlNotIn(List<String> values) {
-            addCriterion("imgurl not in", values, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlBetween(String value1, String value2) {
-            addCriterion("imgurl between", value1, value2, "imgurl");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgurlNotBetween(String value1, String value2) {
-            addCriterion("imgurl not between", value1, value2, "imgurl");
-            return (Criteria) this;
-        }
-
         public Criteria andDetailIsNull() {
             addCriterion("detail is null");
             return (Criteria) this;
@@ -872,6 +800,78 @@ public class ScenicRegionQuery extends BaseQuery implements Serializable {
 
         public Criteria andDetailNotBetween(String value1, String value2) {
             addCriterion("detail not between", value1, value2, "detail");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlIsNull() {
+            addCriterion("imgurl is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlIsNotNull() {
+            addCriterion("imgurl is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlEqualTo(String value) {
+            addCriterion("imgurl =", value, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlNotEqualTo(String value) {
+            addCriterion("imgurl <>", value, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlGreaterThan(String value) {
+            addCriterion("imgurl >", value, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlGreaterThanOrEqualTo(String value) {
+            addCriterion("imgurl >=", value, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlLessThan(String value) {
+            addCriterion("imgurl <", value, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlLessThanOrEqualTo(String value) {
+            addCriterion("imgurl <=", value, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlLike(String value) {
+            String strValue = "%"+value.toString()+"%";
+            addCriterion("imgurl like", strValue, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlNotLike(String value) {
+            String strValue = "%"+value.toString()+"%";
+            addCriterion("imgurl not like", strValue, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlIn(List<String> values) {
+            addCriterion("imgurl in", values, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlNotIn(List<String> values) {
+            addCriterion("imgurl not in", values, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlBetween(String value1, String value2) {
+            addCriterion("imgurl between", value1, value2, "imgurl");
+            return (Criteria) this;
+        }
+
+        public Criteria andImgurlNotBetween(String value1, String value2) {
+            addCriterion("imgurl not between", value1, value2, "imgurl");
             return (Criteria) this;
         }
 
